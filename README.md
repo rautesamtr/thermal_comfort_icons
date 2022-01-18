@@ -6,7 +6,6 @@ Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/therm
 ## Temperatures
 
 ### Heat Index
-![Preview](./svg/thermometer-heat.svg) thermometer-heat<br />
 ![Preview](./svg/thermometer-fire.svg) thermometer-fire<br />
 
 ### Dew Point
@@ -14,10 +13,9 @@ Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/therm
 ![Preview](./svg/thermometer-water-opacity.svg) thermometer-water-opacity<br />
 
 ### Frost Point
-![Preview](./svg/thermometer-snow.svg) thermometer-snow<br />
+![Preview](./svg/thermometer-snowflake.svg) thermometer-snowflake<br />
 
 ### Simmer Index
-![Preview](./svg/thermometer-sleep.svg) thermometer-sleep<br />
 ![Preview](./svg/thermometer-power-sleep.svg) thermometer-power-sleep<br />
 
 ## Perception
