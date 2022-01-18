@@ -1,67 +1,50 @@
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
-# hass-bha-icons
+# Home Assistant Thermal Comfort Icons
 
-Custom icon pack designed for Home Assistant.
+Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/thermal_comfort).
 
-## Generic content
+## Temperatures
 
-![Preview](./svg/ceiling-downlight.svg) ceiling-downlight<br />
-![Preview](./svg/ceiling-fan.svg) ceiling-fan<br />
-![Preview](./svg/ceiling-fan-light.svg) ceiling-fan-light<br />
-![Preview](./svg/ceiling-lamp.svg) ceiling-lamp<br />
-![Preview](./svg/ceiling-lamp-plafond.svg) ceiling-lamp-plafond<br />
-![Preview](./svg/ceiling-lamp-round.svg) ceiling-lamp-round<br />
-![Preview](./svg/ceiling-spot-lamp.svg) ceiling-spot-lamp<br />
-![Preview](./svg/chandelier.svg) chandelier<br />
-![Preview](./svg/dome-light.svg) dome-light<br />
-![Preview](./svg/floor-lamp.svg) floor-lamp<br />
-![Preview](./svg/floor-lamp-dual.svg) floor-lamp-dual<br />
-![Preview](./svg/led-strip.svg) led-strip<br />
-![Preview](./svg/lightbulb-top.svg) lightbulb-top<br />
-![Preview](./svg/lightbulb-top-outline.svg) lightbulb-top-outline<br />
-![Preview](./svg/light-string.svg) light-string<br />
-![Preview](./svg/nas.svg) nas<br />
-![Preview](./svg/outdoor-lamp.svg) outdoor-lamp<br />
-![Preview](./svg/outdoor-lamp-solo.svg) outdoor-lamp-solo<br />
-![Preview](./svg/outdoor-lamp-variant.svg) outdoor-lamp-variant<br />
-![Preview](./svg/mirror-lamp.svg) mirror-lamp<br />
-![Preview](./svg/path-light.svg) path-light<br />
-![Preview](./svg/smoke-detector.svg) smoke-detector<br />
-![Preview](./svg/spot-bulb.svg) spot-bulb<br />
-![Preview](./svg/spot-bulb-top.svg) spot-bulb-top<br />
-![Preview](./svg/stairs.svg) stairs<br />
-![Preview](./svg/table-lamp-variant.svg) table-lamp-variant<br />
-![Preview](./svg/thermostat.svg) thermostat<br />
-![Preview](./svg/xmas-candle-bridge.svg) xmas-candle-bridge<br />
-![Preview](./svg/xmas-star.svg) xmas-star<br />
+### Heat Index
+![Preview](./svg/thermometer-heat.svg) thermometer-heat<br />
+![Preview](./svg/thermometer-fire.svg) thermometer-fire<br />
 
-## Brands / products
+### Dew Point
+![Preview](./svg/thermometer-water.svg) thermometer-water<br />
+![Preview](./svg/thermometer-water-opacity.svg) thermometer-water-opacity<br />
 
-![Preview](./svg/adguard-home.svg) adguard-home<br />
-![Preview](./svg/apple-tv.svg) apple-tv<br />
-![Preview](./svg/b-hyve.svg) b-hyve<br />
-![Preview](./svg/matter.svg) matter<br />
-![Preview](./svg/nginx-proxy-manager.svg) nginx-proxy-manager<br />
-![Preview](./svg/node-red.svg) node-red<br />
-![Preview](./svg/open-wrt.svg) open-wrt<br />
-![Preview](./svg/phoscon.svg) phoscon<br />
-![Preview](./svg/roborock.svg) roborock<br />
+### Frost Point
+![Preview](./svg/thermometer-snow.svg) thermometer-snow<br />
+
+### Simmer Index
+![Preview](./svg/thermometer-sleep.svg) thermometer-sleep<br />
+![Preview](./svg/thermometer-power-sleep.svg) thermometer-power-sleep<br />
+
+## Perception
+
+### Thermal Perception
+![Preview](./svg/hand-thermometer.svg) hand-thermometer<br />
+![Preview](./svg/home-thermometer-eye.svg) home-thermometer-eye<br />
+
+### Simmer Zone
+![Preview](./svg/hand-thermometer-power-sleep.svg) hand-thermometer-power-sleep<br />
+![Preview](./svg/home-thermometer-eye-power-sleep.svg) home-thermometer-eye-power-sleep<br />
 
 ## Install
 
 ### HACS
-Add this repo via HACS as a plugin and install.  See the [HACS install guide](./HACS_INSTALL.md) for step by step instructions.
+Add this repo via HACS as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories) and install.
 
 ### Manual
-Copy the `hass-bha-icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
+Copy the `hass-tc-icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
 
 Add the folowing to the `frontend` section of your `configuration.yaml`
 
 ```yaml
 frontend:
   extra_module_url:
-    - /local/hass-bha-icons.js
+    - /local/hass-tc-icons.js
 ```
 
 Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
@@ -69,36 +52,25 @@ Or add the following to your lovelace configuration using the Raw Config editor 
 ```yaml
 resources:
   - type: js
-    url: /local/hass-bha-icons.js
+    url: /local/hass-tc-icons.js
 ```
 
 Restart home-assistant.
 
 ## Using
-The icons uses the prefix `bha:`.
+The icons uses the prefix `tc:`.
 
-Example:
+For thermal_comfort add a unique_id in the yaml config and set the icon per sensor through the frontend.
 
-```
-entities:
-  - entity: light.floor_lamp
-    icon: 'bha:floor-lamp'
-    name: floor-lamp
-  - entity: light.floor_lamp_dual
-    icon: 'bha:floor-lamp-dual'
-    name: floor-lamp-dual
-  - entity: light.led_strip
-    icon: 'bha:led-strip'
-    name: led-strip
-  - entity: light.outdoor_lamp_north
-    icon: 'bha:outdoor-lamp'
-    name: outdoor-lamp
-  - entity: light.outdoor_lamp_west
-    icon: 'bha:outdoor-lamp-variant'
-    name: outdoor-lamp-variant
-show_header_toggle: false
-title: hass-bha-icons
-type: entities
+```yaml
+sensor:
+  - platform: thermal_comfort
+    sensors:
+      livingroom:
+        friendly_name: Living Room
+        temperature_sensor: sensor.temperature_livingroom
+        humidity_sensor: sensor.humidity_livingroom
+        unique_id: 8126740e-8e91-4e66-b902-58e13a9939a7
 ```
 
 ## FAQ
@@ -107,6 +79,4 @@ Q: The icon ain't showing, it's just white space where it should be. What's up w
 A: Probably related to cache. Try opening your instance in a incognito/private Window and see if your icon shows then. If yes, it's cache related. If not, spellcheck.
 
 ## Thanks
-Thanks to @thomasloven, as I used his hass-fontawesome as a template for this pack
-
-Thanks to @prairiesnpr, @kmlucy, @GeorgeSG, @shbatm and @clemalex824 for their contributiuons
+Based on [hass-bha-icons](https://github.com/hulkhaugen/hass-bha-icons) from @hulkhaugen

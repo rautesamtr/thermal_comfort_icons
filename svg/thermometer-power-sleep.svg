@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="mdi-thermometer-bluetooth"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   sodipodi:docname="thermometer-night.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="7.4895833"
+     inkscape:cx="-58.681503"
+     inkscape:cy="-11.282337"
+     inkscape:window-width="2752"
+     inkscape:window-height="1083"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="mdi-thermometer-bluetooth" />
+  <path
+     d="M 11,13 V 5 C 11,3.34 9.66,2 8,2 6.34,2 5,3.34 5,5 v 8 c -2.21,1.66 -2.66,4.79 -1,7 1.66,2.21 4.79,2.66 7,1 2.21,-1.66 2.66,-4.79 1,-7 -0.28,-0.38 -0.62,-0.72 -1,-1 M 8,4 C 8.55,4 9,4.45 9,5 V 8 H 7 V 5 C 7,4.45 7.45,4 8,4"
+     id="path2"
+     sodipodi:nodetypes="cssscsscccsccsc" />
+  <path
+     d="m 22.100622,16.010121 c -1.667247,1.84749 -4.516087,2.0027 -6.37359,0.320432 -1.837477,-1.667247 -1.982672,-4.516086 -0.315425,-6.3635759 0.766032,-0.841134 1.817449,-1.366842 2.953981,-1.466977 -1.657233,1.8524959 -1.502024,4.7013359 0.365493,6.3635759 0.8161,0.740999 1.89255,1.146545 3.004048,1.146545 0.125169,0 0.250338,0 0.365493,0 z"
+     id="path936"
+     style="stroke-width:0.999998" />
+</svg>
