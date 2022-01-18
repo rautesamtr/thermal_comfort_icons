@@ -1,6 +1,5 @@
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
-
 # Home Assistant Thermal Comfort Icons
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
 Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/thermal_comfort).
 
