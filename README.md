@@ -10,7 +10,6 @@ Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/therm
 
 ### Dew Point
 ![Preview](./svg/thermometer-water.svg) thermometer-water<br />
-![Preview](./svg/thermometer-water-opacity.svg) thermometer-water-opacity<br />
 
 ### Frost Point
 ![Preview](./svg/thermometer-snowflake.svg) thermometer-snowflake<br />
@@ -21,12 +20,10 @@ Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/therm
 ## Perception
 
 ### Thermal Perception
-![Preview](./svg/hand-thermometer.svg) hand-thermometer<br />
-![Preview](./svg/home-thermometer-eye.svg) home-thermometer-eye<br />
+![Preview](./svg/human-male-thermometer.svg) human-male-thermometer<br />
 
 ### Simmer Zone
-![Preview](./svg/hand-thermometer-power-sleep.svg) hand-thermometer-power-sleep<br />
-![Preview](./svg/home-thermometer-eye-power-sleep.svg) home-thermometer-eye-power-sleep<br />
+![Preview](./svg/human-male-thermometer-power-sleep.svg) human-male-thermometer-power-sleep<br />
 
 ## Install
 
