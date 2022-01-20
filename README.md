@@ -20,9 +20,10 @@ Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/therm
 ## Perception
 
 ### Thermal Perception
-![Preview](./svg/hand-thermometer-fire.svg) `thermal-perception` | `hand-thermometer`
-![Preview](./svg/hand-thermometer-fire.svg) `thermal-perception-alternative` | `hand-thermometer-sun`
-![Preview](./svg/hand-thermometer-fire.svg) `dew-point-perception` | `hand-thermometer-water`
+![Preview](./svg/hand-thermometer.svg) `thermal-perception` | `hand-thermometer`
+![Preview](./svg/hand-thermometer-sun.svg) `thermal-perception-alternative` | `hand-thermometer-sun`
+![Preview](./svg/hand-thermometer-water.svg) `dew-point-perception` | `hand-thermometer-water`
+![Preview](./svg/hand-thermometer-fire.svg) `heat-point-perception` | `hand-thermometer-fire`
 ### Simmer Zone
 ![Preview](./svg/hand-thermometer-power-sleep.svg) `simmer-zone` | `hand-thermometer-power-sleep`
 
