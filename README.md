@@ -6,24 +6,24 @@ Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/therm
 ## Temperatures
 
 ### Heat Index
-![Preview](./svg/thermometer-fire.svg) thermometer-fire<br />
+![Preview](./svg/thermometer-fire.svg) `heat-index` | `thermometer-fire`
 
 ### Dew Point
-![Preview](./svg/thermometer-water.svg) thermometer-water<br />
+![Preview](./svg/thermometer-water.svg) `dew-point` | `thermometer-water`
 
 ### Frost Point
-![Preview](./svg/thermometer-snowflake.svg) thermometer-snowflake<br />
+![Preview](./svg/thermometer-snowflake.svg) `frost-point` | `thermometer-snowflake`
 
 ### Simmer Index
-![Preview](./svg/thermometer-power-sleep.svg) thermometer-power-sleep<br />
+![Preview](./svg/thermometer-power-sleep.svg) `simmer-index` | `thermometer-power-sleep`
 
 ## Perception
 
 ### Thermal Perception
-![Preview](./svg/human-male-thermometer.svg) human-male-thermometer<br />
+![Preview](./svg/hand-thermometer-fire.svg) `thermal-perception` | `hand-thermometer-fire`
 
 ### Simmer Zone
-![Preview](./svg/human-male-thermometer-power-sleep.svg) human-male-thermometer-power-sleep<br />
+![Preview](./svg/hand-thermometer-power-sleep.svg) `simmer-zone` | `hand-thermometer-power-sleep`
 
 ## Install
 
