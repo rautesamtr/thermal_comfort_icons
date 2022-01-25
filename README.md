@@ -6,32 +6,32 @@ Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/therm
 ## Temperatures
 
 ### Heat Index
-![Preview](./svg/thermometer-fire.svg) `heat-index` | `thermometer-fire`
+![Preview](./svg/thermometer-fire.svg) `heat-index`
 
 ### Dew Point
-![Preview](./svg/thermometer-water.svg) `dew-point` | `thermometer-water`
+![Preview](./svg/thermometer-water.svg) `dew-point`
 
-![Preview](./svg/thermometer-water-opacity.svg) `dew-point-alternative` | `thermometer-water-opacity`
+![Preview](./svg/thermometer-water-opacity.svg) `dew-point-alternative`
 
 ### Frost Point
-![Preview](./svg/thermometer-snowflake.svg) `frost-point` | `thermometer-snowflake`
+![Preview](./svg/thermometer-snowflake.svg) `frost-point`
 
 ### Simmer Index
-![Preview](./svg/thermometer-power-sleep.svg) `simmer-index` | `thermometer-power-sleep`
+![Preview](./svg/thermometer-power-sleep.svg) `simmer-index`
 
 ## Perception
 
 ### Thermal Perception
-![Preview](./svg/hand-thermometer.svg) `thermal-perception` | `hand-thermometer`
+![Preview](./svg/hand-thermometer.svg) `thermal-perception`
 
-![Preview](./svg/hand-thermometer-sun.svg) `thermal-perception-alternative` | `hand-thermometer-sun`
+![Preview](./svg/hand-thermometer-sun.svg) `thermal-perception-alternative`
 
-![Preview](./svg/hand-thermometer-water.svg) `dew-point-perception` | `hand-thermometer-water`
+![Preview](./svg/hand-thermometer-water.svg) `dew-point-perception`
 
-![Preview](./svg/hand-thermometer-fire.svg) `heat-point-perception` | `hand-thermometer-fire`
+![Preview](./svg/hand-thermometer-fire.svg) `heat-point-perception`
 
 ### Simmer Zone
-![Preview](./svg/hand-thermometer-power-sleep.svg) `simmer-zone` | `hand-thermometer-power-sleep`
+![Preview](./svg/hand-thermometer-power-sleep.svg) `simmer-zone`
 
 ## Install
 
