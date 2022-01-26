@@ -30,8 +30,18 @@ Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/therm
 
 ![Preview](./svg/hand-thermometer-fire.svg) `heat-point-perception`
 
+![Preview](./svg/human-male-thermometer.svg) `thermal-perception-human`
+
+![Preview](./svg/human-male-thermometer-sun.svg) `thermal-perception-human-alternative`
+
+![Preview](./svg/human-male-thermometer-water.svg) `dew-point-perception-human`
+
+![Preview](./svg/human-male-thermometer-fire.svg) `heat-point-perception-human`
+
 ### Simmer Zone
 ![Preview](./svg/hand-thermometer-power-sleep.svg) `simmer-zone`
+
+![Preview](./svg/human-male-thermometer-power-sleep.svg) `simmer-zone-human`
 
 ## Install
 
