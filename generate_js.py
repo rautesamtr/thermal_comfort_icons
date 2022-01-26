@@ -55,7 +55,7 @@ window.customIcons = window.customIcons || {};
 window.customIcons["tc"] = { getIcon, getIconList };
 
 window.customIconsets = window.customIconsets || {};
-window.customIconsets["bha"] = getIcon;
+window.customIconsets["tc"] = getIcon;
 """
 )
 
