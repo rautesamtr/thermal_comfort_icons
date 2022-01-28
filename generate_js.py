@@ -33,7 +33,7 @@ doms = [parse(file) for file in glob(os.path.join(SVG, f"*.{SVG}"))]
 icons = {
     get_id(dom): {
         "path": get_path(dom),
-        "keywords": get_keywords(dom),
+        "keywords": get_keywords(dom).split(" "),
     }
     for dom in doms
 }
