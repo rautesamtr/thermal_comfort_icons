@@ -21,9 +21,9 @@ def get_id(dom: Document) -> str:
 
 def get_keywords(dom: Document) -> str:
     """Get the keywords of the svg file."""
-    desc = dom.getElementsByTagName("desc")[0]
-    if desc.firstChild is not None:
-        return desc.firstChild.nodeValue
+    desc_tags = dom.getElementsByTagName("desc")
+    if len(desc_tags) > 0 and desc_tags[0].firstChild is not None:
+        return desc_tags[0].firstChild.nodeValue.split(" ")
     else:
         return []
 
@@ -33,7 +33,7 @@ doms = [parse(file) for file in glob(os.path.join(SVG, f"*.{SVG}"))]
 icons = {
     get_id(dom): {
         "path": get_path(dom),
-        "keywords": get_keywords(dom).split(" "),
+        "keywords": get_keywords(dom),
     }
     for dom in doms
 }
