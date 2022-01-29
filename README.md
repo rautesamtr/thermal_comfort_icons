@@ -1,62 +1,62 @@
 # Home Assistant Thermal Comfort Icons
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
-Custom icon pack designed for [Thermal Comfort](https://github.com/dolezsa/thermal_comfort).
+Official icon pack designed for [Thermal Comfort](https://github.com/dolezsa/thermal_comfort).
 
 ## Temperatures
 
 ### Heat Index
-![Preview](./svg/thermometer-fire.svg) `heat-index`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/thermometer-fire.svg) `heat-index`
 
 ### Dew Point
-![Preview](./svg/thermometer-water.svg) `dew-point`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/thermometer-water.svg) `dew-point`
 
-![Preview](./svg/thermometer-water-opacity.svg) `dew-point-alternative`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/thermometer-water-opacity.svg) `dew-point-alternative`
 
 ### Frost Point
-![Preview](./svg/thermometer-snowflake.svg) `frost-point`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/thermometer-snowflake.svg) `frost-point`
 
 ### Simmer Index
-![Preview](./svg/thermometer-power-sleep.svg) `simmer-index`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/thermometer-power-sleep.svg) `simmer-index`
 
 ## Perception
 
 ### Thermal Perception
-![Preview](./svg/hand-thermometer.svg) `thermal-perception`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer.svg) `thermal-perception`
 
-![Preview](./svg/hand-thermometer-sun.svg) `thermal-perception-alternative`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-sun.svg) `thermal-perception-alternative`
 
-![Preview](./svg/hand-thermometer-water.svg) `dew-point-perception`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-water.svg) `dew-point-perception`
 
-![Preview](./svg/hand-thermometer-fire.svg) `heat-point-perception`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-fire.svg) `heat-point-perception`
 
-![Preview](./svg/human-male-thermometer.svg) `thermal-perception-human`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer.svg) `thermal-perception-human`
 
-![Preview](./svg/human-male-thermometer-sun.svg) `thermal-perception-human-alternative`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer-sun.svg) `thermal-perception-human-alternative`
 
-![Preview](./svg/human-male-thermometer-water.svg) `dew-point-perception-human`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer-water.svg) `dew-point-perception-human`
 
-![Preview](./svg/human-male-thermometer-fire.svg) `heat-point-perception-human`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer-fire.svg) `heat-point-perception-human`
 
 ### Simmer Zone
-![Preview](./svg/hand-thermometer-power-sleep.svg) `simmer-zone`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-power-sleep.svg) `simmer-zone`
 
-![Preview](./svg/human-male-thermometer-power-sleep.svg) `simmer-zone-human`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer-power-sleep.svg) `simmer-zone-human`
 
 ## Install
 
-### HACS
-Add this repo via HACS as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories) and install.
+### Using HACS (recommended)
+This plugin can be installed using HACS. To do it search for Thermal Comfort Icons in the frontend section.
 
 ### Manual
-Copy the `hass-tc-icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
+Copy the `thermal_comfort_icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
 
-Add the folowing to the `frontend` section of your `configuration.yaml`
+Add the following to the `frontend` section of your `configuration.yaml`
 
 ```yaml
 frontend:
   extra_module_url:
-    - /local/hass-tc-icons.js
+    - /local/thermal_comfort_icons.js
 ```
 
 Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
@@ -64,26 +64,22 @@ Or add the following to your lovelace configuration using the Raw Config editor 
 ```yaml
 resources:
   - type: js
-    url: /local/hass-tc-icons.js
+    url: /local/thermal_comfort_icons.js
 ```
 
 Restart home-assistant.
 
 ## Using
-The icons uses the prefix `tc:`.
 
-For thermal_comfort add a unique_id in the yaml config and set the icon per sensor through the frontend.
+### Directly
 
-```yaml
-sensor:
-  - platform: thermal_comfort
-    sensors:
-      livingroom:
-        friendly_name: Living Room
-        temperature_sensor: sensor.temperature_livingroom
-        humidity_sensor: sensor.humidity_livingroom
-        unique_id: 8126740e-8e91-4e66-b902-58e13a9939a7
-```
+Icons can be found with home assistants icon picker.
+
+The icons use the prefix `tc:`.
+
+### With Thermal Comfort
+
+see https://github.com/dolezsa/thermal_comfort#custom-icons
 
 ## FAQ
 Q: The icon ain't showing, it's just white space where it should be. What's up with that?
