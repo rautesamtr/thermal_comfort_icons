@@ -22,21 +22,21 @@ Official icon pack designed for [Thermal Comfort](https://github.com/dolezsa/the
 ## Perception
 
 ### Thermal Perception
-![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer.svg) `thermal-perception`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer.svg) `thermal-perception-hand`
 
-![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-sun.svg) `thermal-perception-alternative`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-sun.svg) `thermal-perception-hand-alternative`
 
-![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-water.svg) `dew-point-perception`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-water.svg) `dew-point-perception-hand`
 
-![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-fire.svg) `heat-point-perception`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-fire.svg) `heat-point-perception-hand`
 
-![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer.svg) `thermal-perception-human`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer.svg) `thermal-perception`
 
-![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer-sun.svg) `thermal-perception-human-alternative`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer-sun.svg) `thermal-perception-alternative`
 
-![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer-water.svg) `dew-point-perception-human`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer-water.svg) `dew-point-perception`
 
-![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer-fire.svg) `heat-point-perception-human`
+![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/human-male-thermometer-fire.svg) `heat-point-perception`
 
 ### Simmer Zone
 ![Preview](https://raw.githubusercontent.com/rautesamtr/thermal_comfort_icons/master/svg/hand-thermometer-power-sleep.svg) `simmer-zone`
